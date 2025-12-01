@@ -1,15 +1,16 @@
 num=int(input("Enter the number(1-7);"))
 if(num==1):
-    print("SUNDAY!")
-elif(num==2):
     print("MONDAY!")
-elif(num==3):
+elif(num==2):
     print("TUESDAY!")
-elif(num==4):
+elif(num==3):
     print("WEDNESDAY!")
-elif(num==5):
+elif(num==4):
     print("THURSDAY!")
-elif(num==6):
+elif(num==5):
     print("FRIDAY!")
-elif(num==7):
+elif(num==6):
     print("SATURDAY!")
+elif(num==7):
+
+    print("SUNDAY!")
