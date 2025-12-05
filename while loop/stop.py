@@ -1,3 +1,4 @@
-str=True
-while(str!="stop"):
+while(True):
     str=input("Enter the string:")
+    if(str.lower()=="stop"):
+        break
