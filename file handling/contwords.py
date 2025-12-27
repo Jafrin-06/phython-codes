@@ -1,0 +1,5 @@
+file = open("anagram.txt")
+text = file.read()
+words = text.split()
+print("Number of words:", len(words))
+file.close()
